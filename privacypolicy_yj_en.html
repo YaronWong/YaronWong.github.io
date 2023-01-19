@@ -1,0 +1,653 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>Privacy Policy</title><style>
+/* cspell:disable-file */
+/* webkit printing magic: print all background colors */
+html {
+	-webkit-print-color-adjust: exact;
+}
+* {
+	box-sizing: border-box;
+	-webkit-print-color-adjust: exact;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+@media only screen {
+	body {
+		margin: 2em auto;
+		max-width: 900px;
+		color: rgb(55, 53, 47);
+	}
+}
+
+body {
+	line-height: 1.5;
+	white-space: pre-wrap;
+}
+
+a,
+a.visited {
+	color: inherit;
+	text-decoration: underline;
+}
+
+.pdf-relative-link-path {
+	font-size: 80%;
+	color: #444;
+}
+
+h1,
+h2,
+h3 {
+	letter-spacing: -0.01em;
+	line-height: 1.2;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+
+.page-title {
+	font-size: 2.5rem;
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 0.75em;
+}
+
+h1 {
+	font-size: 1.875rem;
+	margin-top: 1.875rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+	margin-top: 1.5rem;
+}
+
+h3 {
+	font-size: 1.25rem;
+	margin-top: 1.25rem;
+}
+
+.source {
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	padding: 1.5em;
+	word-break: break-all;
+}
+
+.callout {
+	border-radius: 3px;
+	padding: 1rem;
+}
+
+figure {
+	margin: 1.25em 0;
+	page-break-inside: avoid;
+}
+
+figcaption {
+	opacity: 0.5;
+	font-size: 85%;
+	margin-top: 0.5em;
+}
+
+mark {
+	background-color: transparent;
+}
+
+.indented {
+	padding-left: 1.5em;
+}
+
+hr {
+	background: transparent;
+	display: block;
+	width: 100%;
+	height: 1px;
+	visibility: visible;
+	border: none;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.09);
+}
+
+img {
+	max-width: 100%;
+}
+
+@media only print {
+	img {
+		max-height: 100vh;
+		object-fit: contain;
+	}
+}
+
+@page {
+	margin: 1in;
+}
+
+.collection-content {
+	font-size: 0.875rem;
+}
+
+.column-list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.column {
+	padding: 0 1em;
+}
+
+.column:first-child {
+	padding-left: 0;
+}
+
+.column:last-child {
+	padding-right: 0;
+}
+
+.table_of_contents-item {
+	display: block;
+	font-size: 0.875rem;
+	line-height: 1.3;
+	padding: 0.125rem;
+}
+
+.table_of_contents-indent-1 {
+	margin-left: 1.5rem;
+}
+
+.table_of_contents-indent-2 {
+	margin-left: 3rem;
+}
+
+.table_of_contents-indent-3 {
+	margin-left: 4.5rem;
+}
+
+.table_of_contents-link {
+	text-decoration: none;
+	opacity: 0.7;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.18);
+}
+
+table,
+th,
+td {
+	border: 1px solid rgba(55, 53, 47, 0.09);
+	border-collapse: collapse;
+}
+
+table {
+	border-left: none;
+	border-right: none;
+}
+
+th,
+td {
+	font-weight: normal;
+	padding: 0.25em 0.5em;
+	line-height: 1.5;
+	min-height: 1.5em;
+	text-align: left;
+}
+
+th {
+	color: rgba(55, 53, 47, 0.6);
+}
+
+ol,
+ul {
+	margin: 0;
+	margin-block-start: 0.6em;
+	margin-block-end: 0.6em;
+}
+
+li > ol:first-child,
+li > ul:first-child {
+	margin-block-start: 0.6em;
+}
+
+ul > li {
+	list-style: disc;
+}
+
+ul.to-do-list {
+	text-indent: -1.7em;
+}
+
+ul.to-do-list > li {
+	list-style: none;
+}
+
+.to-do-children-checked {
+	text-decoration: line-through;
+	opacity: 0.375;
+}
+
+ul.toggle > li {
+	list-style: none;
+}
+
+ul {
+	padding-inline-start: 1.7em;
+}
+
+ul > li {
+	padding-left: 0.1em;
+}
+
+ol {
+	padding-inline-start: 1.6em;
+}
+
+ol > li {
+	padding-left: 0.2em;
+}
+
+.mono ol {
+	padding-inline-start: 2em;
+}
+
+.mono ol > li {
+	text-indent: -0.4em;
+}
+
+.toggle {
+	padding-inline-start: 0em;
+	list-style-type: none;
+}
+
+/* Indent toggle children */
+.toggle > li > details {
+	padding-left: 1.7em;
+}
+
+.toggle > li > details > summary {
+	margin-left: -1.1em;
+}
+
+.selected-value {
+	display: inline-block;
+	padding: 0 0.5em;
+	background: rgba(206, 205, 202, 0.5);
+	border-radius: 3px;
+	margin-right: 0.5em;
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+	white-space: nowrap;
+}
+
+.collection-title {
+	display: inline-block;
+	margin-right: 1em;
+}
+
+time {
+	opacity: 0.5;
+}
+
+.icon {
+	display: inline-block;
+	max-width: 1.2em;
+	max-height: 1.2em;
+	text-decoration: none;
+	vertical-align: text-bottom;
+	margin-right: 0.5em;
+}
+
+img.icon {
+	border-radius: 3px;
+}
+
+.user-icon {
+	width: 1.5em;
+	height: 1.5em;
+	border-radius: 100%;
+	margin-right: 0.5rem;
+}
+
+.user-icon-inner {
+	font-size: 0.8em;
+}
+
+.text-icon {
+	border: 1px solid #000;
+	text-align: center;
+}
+
+.page-cover-image {
+	display: block;
+	object-fit: cover;
+	width: 100%;
+	height: 30vh;
+}
+
+.page-header-icon {
+	font-size: 3rem;
+	margin-bottom: 1rem;
+}
+
+.page-header-icon-with-cover {
+	margin-top: -0.72em;
+	margin-left: 0.07em;
+}
+
+.page-header-icon img {
+	border-radius: 3px;
+}
+
+.link-to-page {
+	margin: 1em 0;
+	padding: 0;
+	border: none;
+	font-weight: 500;
+}
+
+p > .user {
+	opacity: 0.5;
+}
+
+td > .user,
+td > time {
+	white-space: nowrap;
+}
+
+input[type="checkbox"] {
+	transform: scale(1.5);
+	margin-right: 0.6em;
+	vertical-align: middle;
+}
+
+p {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.image {
+	border: none;
+	margin: 1.5em 0;
+	padding: 0;
+	border-radius: 0;
+	text-align: center;
+}
+
+.code,
+code {
+	background: rgba(135, 131, 120, 0.15);
+	border-radius: 3px;
+	padding: 0.2em 0.4em;
+	border-radius: 3px;
+	font-size: 85%;
+	tab-size: 2;
+}
+
+code {
+	color: #eb5757;
+}
+
+.code {
+	padding: 1.5em 1em;
+}
+
+.code-wrap {
+	white-space: pre-wrap;
+	word-break: break-all;
+}
+
+.code > code {
+	background: none;
+	padding: 0;
+	font-size: 100%;
+	color: inherit;
+}
+
+blockquote {
+	font-size: 1.25em;
+	margin: 1em 0;
+	padding-left: 1em;
+	border-left: 3px solid rgb(55, 53, 47);
+}
+
+.bookmark {
+	text-decoration: none;
+	max-height: 8em;
+	padding: 0;
+	display: flex;
+	width: 100%;
+	align-items: stretch;
+}
+
+.bookmark-title {
+	font-size: 0.85em;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 1.75em;
+	white-space: nowrap;
+}
+
+.bookmark-text {
+	display: flex;
+	flex-direction: column;
+}
+
+.bookmark-info {
+	flex: 4 1 180px;
+	padding: 12px 14px 14px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.bookmark-image {
+	width: 33%;
+	flex: 1 1 180px;
+	display: block;
+	position: relative;
+	object-fit: cover;
+	border-radius: 1px;
+}
+
+.bookmark-description {
+	color: rgba(55, 53, 47, 0.6);
+	font-size: 0.75em;
+	overflow: hidden;
+	max-height: 4.5em;
+	word-break: break-word;
+}
+
+.bookmark-href {
+	font-size: 0.75em;
+	margin-top: 0.25em;
+}
+
+.sans { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; }
+.code { font-family: "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace; }
+.serif { font-family: Lyon-Text, Georgia, ui-serif, serif; }
+.mono { font-family: iawriter-mono, Nitti, Menlo, Courier, monospace; }
+.pdf .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK JP'; }
+.pdf:lang(zh-CN) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK SC'; }
+.pdf:lang(zh-TW) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK TC'; }
+.pdf:lang(ko-KR) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK KR'; }
+.pdf .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.pdf .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK JP'; }
+.pdf:lang(zh-CN) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK SC'; }
+.pdf:lang(zh-TW) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK TC'; }
+.pdf:lang(ko-KR) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK KR'; }
+.pdf .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.highlight-default {
+	color: rgba(55, 53, 47, 1);
+}
+.highlight-gray {
+	color: rgba(120, 119, 116, 1);
+	fill: rgba(145, 145, 142, 1);
+}
+.highlight-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(187, 132, 108, 1);
+}
+.highlight-orange {
+	color: rgba(200, 112, 34, 1);
+	fill: rgba(215, 129, 58, 1);
+}
+.highlight-yellow {
+	color: rgba(181, 126, 51, 1);
+	fill: rgba(203, 148, 51, 1);
+}
+.highlight-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(108, 155, 125, 1);
+}
+.highlight-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(91, 151, 189, 1);
+}
+.highlight-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(167, 130, 195, 1);
+}
+.highlight-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(205, 116, 159, 1);
+}
+.highlight-red {
+	color: rgba(212, 76, 71, 1);
+	fill: rgba(225, 111, 100, 1);
+}
+.highlight-gray_background {
+	background: rgba(241, 241, 239, 1);
+}
+.highlight-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.highlight-orange_background {
+	background: rgba(252, 237, 231, 1);
+}
+.highlight-yellow_background {
+	background: rgba(245, 241, 229, 1);
+}
+.highlight-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.highlight-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.highlight-purple_background {
+	background: rgba(244, 240, 247, 1);
+}
+.highlight-pink_background {
+	background: rgba(249, 238, 243, 1);
+}
+.highlight-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.block-color-default {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray {
+	color: rgba(120, 119, 116, 1);
+	fill: rgba(145, 145, 142, 1);
+}
+.block-color-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(187, 132, 108, 1);
+}
+.block-color-orange {
+	color: rgba(200, 112, 34, 1);
+	fill: rgba(215, 129, 58, 1);
+}
+.block-color-yellow {
+	color: rgba(181, 126, 51, 1);
+	fill: rgba(203, 148, 51, 1);
+}
+.block-color-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(108, 155, 125, 1);
+}
+.block-color-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(91, 151, 189, 1);
+}
+.block-color-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(167, 130, 195, 1);
+}
+.block-color-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(205, 116, 159, 1);
+}
+.block-color-red {
+	color: rgba(212, 76, 71, 1);
+	fill: rgba(225, 111, 100, 1);
+}
+.block-color-gray_background {
+	background: rgba(241, 241, 239, 1);
+}
+.block-color-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.block-color-orange_background {
+	background: rgba(252, 237, 231, 1);
+}
+.block-color-yellow_background {
+	background: rgba(245, 241, 229, 1);
+}
+.block-color-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.block-color-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.block-color-purple_background {
+	background: rgba(244, 240, 247, 1);
+}
+.block-color-pink_background {
+	background: rgba(249, 238, 243, 1);
+}
+.block-color-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.select-value-color-pink { background-color: rgba(245, 224, 233, 1); }
+.select-value-color-purple { background-color: rgba(232, 222, 238, 1); }
+.select-value-color-green { background-color: rgba(219, 237, 219, 1); }
+.select-value-color-gray { background-color: rgba(227, 226, 224, 1); }
+.select-value-color-orange { background-color: rgba(250, 222, 201, 1); }
+.select-value-color-brown { background-color: rgba(238, 224, 218, 1); }
+.select-value-color-red { background-color: rgba(255, 226, 221, 1); }
+.select-value-color-yellow { background-color: rgba(244, 231, 202, 1); }
+.select-value-color-blue { background-color: rgba(211, 229, 239, 1); }
+
+.checkbox {
+	display: inline-flex;
+	vertical-align: text-bottom;
+	width: 16;
+	height: 16;
+	background-size: 16px;
+	margin-left: 2px;
+	margin-right: 5px;
+}
+
+.checkbox-on {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20width%3D%2216%22%20height%3D%2216%22%20fill%3D%22%2358A9D7%22%2F%3E%0A%3Cpath%20d%3D%22M6.71429%2012.2852L14%204.9995L12.7143%203.71436L6.71429%209.71378L3.28571%206.2831L2%207.57092L6.71429%2012.2852Z%22%20fill%3D%22white%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+
+.checkbox-off {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+	
+</style></head><body><article id="9cc8a9bb-37b9-46ec-8d5f-f31c0ad767d8" class="page sans"><header><h1 class="page-title">Privacy Policy</h1></header><div class="page-body"><p id="90219e8c-d9d6-4c32-85c5-3cd8bb54ebc0" class="">Privacy Policy
+Update on November 09, 2020</p><p id="b3316a23-bffa-4b56-bf4b-6587f7e47184" class="">Welcome to use teacher translation service! We attach great importance to your privacy protection and personal information protection.</p><p id="45fdd426-525b-4c5c-92d4-a37f934eca60" class="">This privacy policy applies to your access and use of teacher translation services in any way.</p><p id="f08eef14-b664-4116-a479-17b3a36a5130" class="">The privacy policy is part of the Software License and Service Agreement of this software. Please be sure to carefully read the terms in the privacy policy and choose to accept or not. Only if you fully accept the content of this agreement can you continue to use the software; if you do not accept or cannot fully accept this agreement, you should stop using the software and services immediately. Once you start using this software, it means that you have fully understood and agreed to this privacy protection policy.</p><p id="db4a0237-d615-458b-a678-8ac62d7cb1a3" class="">You can use the teacher translation app to perform text translation, image translation, screenshot translation, input translation, real-time screen translation of floating balls, etc. (hereinafter collectively referred to as &quot;teacher translation products or services&quot;). The content of the teacher translation service you get may be different due to the different version of the teacher translation you use. You can use our products and services in many different ways, including teacher translation APP and software development kit (SDK) and application programming interface (API).</p><p id="e459a986-ab73-4732-a1a9-50d754659bb3" class="">The teacher translation app includes multiple application versions such as Android and PC. Please select the version that matches the installed terminal device when using the teacher translation app. The personal information that the teacher translation app may obtain depends on the version of the teacher translation app you use, the specific type/version of the terminal device you use, and the functions you use.</p><p id="452e22a5-4fd0-4d09-9290-991e11d64c78" class="">This privacy policy applies to your access and use of our products and services through the [mobile terminal, PC terminal] and other methods of the teacher translation app.</p><p id="79b71caf-d024-47be-8040-e5d4f96ca7c6" class="">This privacy policy is designed to help you understand what data we collect, why we collect this data, what we do with this data, and how to protect it. Please be sure to read this privacy policy carefully, and use the teacher translation service after confirming that you fully understand and agree to it. By using teacher translation, you agree to the teacher translation privacy policy. If you or your guardian disagree with any content of this privacy policy, you should stop using it immediately. Please note: When you use third-party products and services through teacher translation or when you use teacher translation through third-party products or services (third parties include but are not limited to software service providers, smart device providers, or system service providers), this A third party may obtain your personal information separately. If you provide your personal information to that third party, your information will be subject to the third party&#x27;s privacy policy.</p><p id="4ab29a4d-4327-4ba7-8706-8246d5ba396c" class="">This privacy policy will help you understand the following:</p><ol type="1" id="7fc4e4a9-83dc-4306-93fb-39aae3c070a6" class="numbered-list" start="1"><li>What information do we collect and how we use it</li></ol><ol type="1" id="d30cbf98-5bc1-48fa-829c-591af704b316" class="numbered-list" start="2"><li>How we use cookies and similar technologies</li></ol><ol type="1" id="f8e74fd0-5a67-46bc-bf08-e637d43f4bac" class="numbered-list" start="3"><li>How do we share, transfer, and publicly disclose your personal information</li></ol><ol type="1" id="72840455-7466-4d37-95af-b3c36e19067c" class="numbered-list" start="4"><li>How do we save and protect your personal information</li></ol><ol type="1" id="c0c05186-4bc6-4196-a63e-110b91681b27" class="numbered-list" start="5"><li>Your rights</li></ol><ol type="1" id="a57b1c74-cf91-4f43-9b7e-70488b1d90b5" class="numbered-list" start="6"><li>How do we deal with the personal information of minors</li></ol><ol type="1" id="3f39fa61-81a1-4a6f-84d1-c66dc04df844" class="numbered-list" start="7"><li>How to transfer your personal information across borders</li></ol><ol type="1" id="80f4815d-4c97-4cf2-a379-aa09373d5fd0" class="numbered-list" start="8"><li>How to update this policy</li></ol><ol type="1" id="4432b085-725f-4cd9-9706-32f858bb536d" class="numbered-list" start="9"><li>How to contact us</li></ol><p id="00495c89-e427-4ae7-8132-f8e27d19f353" class="">We are well aware of the importance of personal information to you, and we are also well aware that providing effective protection for your information is the cornerstone of the healthy and sustainable development of our business. Thank you for your use and trust in teacher translation! We are committed to maintaining your trust in us and abide by the following principles to protect your personal information: principle of consistent rights and responsibilities, principle of clear purpose, principle of choice and consent, principle of least enough, principle of ensuring security, principle of subject participation, principle of openness and transparency, etc. .</p><p id="cf46ec46-328b-4ee2-9ae3-9f97af76b1d5" class="">We solemnly promise that we will adopt appropriate security protection measures to protect your personal information in accordance with the mature security standards of the industry.</p><ol type="1" id="edbf514a-e767-4f29-9802-222c77be983b" class="numbered-list" start="1"><li>How we collect and use your personal information
+Personal information refers to various information recorded electronically or in other ways that can identify a specific natural person alone or in combination with other information or reflect the activities of a specific natural person. Information that has nothing to do with you, such as translation data, does not belong to your personal information</li></ol><p id="ec88ae5f-6d9f-4c4d-9853-4df090efa1ca" class="">In order to provide you with better and more personalized products and services, when you use the following services, functions or settings, we will collect and use your personal information in the following ways:</p><ol type="1" id="b9f29d1e-9c5b-48cf-9e0e-a81af8bff077" class="numbered-list" start="1"><li>The personal information you directly provide and we automatically collect The teacher translation service is divided into services provided by teachers and services provided by third parties. The services provided by the teacher include text translation, voice translation, photo translation, input translation, real-time screen translation of floating balls, etc. In addition to the above business functions, teachers have access to a wealth of third-party services. Accessed third-party services include third-party account login, sharing, statistics, and payment services accessed in the form of a software development kit (SDK). Your non-use of third-party services will not affect your use of other business functions of the &quot;Teacher&quot; mobile application. Please note that the processing of your personal information by the third-party service provider will be governed by the privacy policy of the third-party service.</li></ol><ol type="1" id="ed86e385-8e46-4501-9269-9c8d50717b57" class="numbered-list" start="2"><li>Registration information. If you use the teacher translation service, you can log in to the registered Shanghai Yinjie Information Technology Co., Ltd. general account. When registering a general teacher account, you can also use a third-party account (such as WeChat, QQ) to log in to the teacher translation. At this time, you will authorize the teacher to translate and read the public information (nickname, avatar, etc.) that you registered with the third-party account. Of course, whether you log in to the teacher translation or not may affect your use of specific business functions that need to be logged in to use. Teacher interpreters will launch operational activities for newly launched services and functions from time to time. If you participate in related operational activities, we will collect information including but not limited to your contact information and account information through the operational activities interface, so as to get in touch with you and ask you Issue operational rewards, etc. If you do not participate in relevant operational activities, you do not need to provide the foregoing information. 2) Device information. When you use teacher translation, in order to ensure your normal use of teacher translation, more accurately locate and solve the problems you encounter when using teacher translation, improve and optimize the service experience of teacher translation, and protect your account security, we will collect equipment Attribute information (such as your hardware model, operating system version, device configuration, unique device identifier, device MAC address), device location information (such as location information obtained through GPS, Bluetooth, or Wi-Fi signals), device connection information ( Browser type, telecom operator, language used) and device status information (such as device sensor data, software installation list). For the information collected from your various devices, we may associate them so that we can provide you with consistent services on these devices. We may associate your device information with your teacher account.</li></ol><ol type="1" id="ef6ba584-476f-46f0-a46d-04caa1e47fed" class="numbered-list" start="3"><li>Location information. When you turn on the device positioning function and use our location-based related services, we may collect and process your location information so that you do not need to manually enter your own geographic coordinates to obtain related services. We use various technologies for positioning, including IP addresses, GPS, and other sensors that can provide relevant information (for example, Shanghai Yinjie Information Technology Co., Ltd. may provide information on nearby devices, WLAN access points, and base stations). You can turn off the positioning function through system authorization and stop our collection of your geographic location information, but then you may not be able to use the relevant services or functions, or you may not be able to achieve the intended effects of the relevant services.</li></ol><ol type="1" id="99faaabc-f4b5-4900-aa51-2a22b38a7336" class="numbered-list" start="4"><li>Log information. When you use the search service translated by the teacher, our server will automatically record your log information, such as the search keyword information you entered (including the voice information you entered through the intelligent voice function) and the link you clicked, and the error report you posted Information, feedback and comment information, the picture information you uploaded, your IP address, browser type and language, hardware device information, operating system version, network operator information, the date and time of your access to the service, Duration and so on. In order to bring you more convenient search services and continuously improve teacher translation products and services, we may use browser network storage and other mechanisms (including HTML5) and application data caching to collect the information on your device and store it locally (for To achieve data synchronization between your devices, we will store your favorite content data in the cloud). We may analyze your preferences and habits based on the aforementioned information, and at the same time may combine your characteristic information in teacher translation with your information (including personal information) in other services of Shanghai Yinjie Information Technology Co., Ltd. , So that Shanghai Yinjie Information Technology Co., Ltd. as a whole can better meet your needs. The teacher translation provides you with a device-based voice recognition function. In order to provide you with a more accurate search service, you authorize us to send your voice commands to the server, and we will give feedback based on your voice commands. You can enter the voice interaction page at any time by clicking the voice button next to the search box, and turn off the relevant functions through the settings, and revoke our authorization to collect this type of information.</li></ol><ol type="1" id="2c5a6cae-ade7-4a8c-9239-7a8c625bd9dc" class="numbered-list" start="5"><li>Application list information. In order to provide you with device risk environment detection, virus killing, application protection functions and services, we will collect the application list information in your device in order to detect whether there are malicious applications in it and protect the security of the device.</li></ol><ol type="1" id="a4e46fdd-9ab7-458f-a757-6c126d95cc8d" class="numbered-list" start="6"><li>Our indirect collection of your information is to provide you with products/services or to improve the quality and personalization of products and services, or for reasonable needs such as considering the safety of products and services. We will comply with the provisions of laws and regulations or Receive your personal information and other information from affiliates, partners and other trusted third-party providers based on your authorization, and process your personal information in accordance with this privacy policy.</li></ol><ol type="1" id="15f95867-ce69-4484-b1df-151b736c7754" class="numbered-list" start="7"><li>Exceptions to prior authorization and consent Please note: In the following situations, the collection and use of personal information does not require your prior authorization and consent:</li></ol><p id="5300a0b0-cb17-448e-9b02-08b792bdb87b" class="">a) Directly related to national security and national defense security;</p><p id="e4d05771-a3bf-4a6f-b5c1-3eb35ccf1067" class="">b) Directly related to public safety, public health, and major public interests;</p><p id="f9e36ac1-ef43-4b9c-96bd-7c752f2ce284" class="">c) Directly related to criminal investigation, prosecution, trial and execution of judgments;</p><p id="cbfb4cd0-5796-44ea-8bcd-887276abea66" class="">d) In order to protect your or other individuals&#x27; life, property and other major legal rights and interests, but it is difficult to obtain the consent of the person;</p><p id="f5e701b8-24d4-4f3c-b190-801f985ccd83" class="">e) The personal information collected is disclosed to the public by yourself;</p><p id="53aa854b-ed83-44bf-acdc-39f14502c3dd" class="">f) Collecting personal information from legally publicly disclosed information, such as legal news reports, government information disclosure and other channels;</p><p id="86b54bfc-6ef0-4fd1-bce6-2eb479293733" class="">g) Necessary to provide you with products or services according to your requirements;</p><p id="56396ed7-223a-4360-81a8-1f61efde5ff8" class="">h) It is necessary to maintain the safe and stable operation of the products or services provided, such as discovering and disposing of product or service failures;</p><p id="78f9d06b-44c4-4fae-9617-ef3e137fe326" class="">i) Other circumstances stipulated by laws and regulations.</p><ol type="1" id="9dd3848e-33d0-42e0-a42a-3b90b4d3548b" class="numbered-list" start="1"><li>Anonymization or de-identification of personal information After collecting your personal information, we will use technical means to anonymize or de-identify the data in a timely manner. On the premise of not divulging your personal information, Shanghai Yinjie Information Technology Co., Ltd. has the right to mine, analyze and utilize the anonymized user database (including commercial use).</li></ol><ol type="1" id="32920149-a8b5-49e3-96ac-713aa9345eb9" class="numbered-list" start="2"><li>Device permission call In the process of providing services, the teacher interpreter will call some of your device permissions. The following are the business functions corresponding to the calling authority of the teacher&#x27;s translation, the purpose of the calling authority, and the situation that the teacher will ask you before calling the authority. You can choose to turn off some or all of the permissions in the device&#x27;s settings function, thereby denying the teacher translation to collect the corresponding personal information. In different devices, the permission display method and closing method may be different. For details, please refer to the instructions or guidelines of the device and system developer. The permissions used include the following device permissions. The purpose of the corresponding business function call permissions is whether to ask to obtain the strategic location. Real-time translation of the floating ball. The nearest allocation service resource is to read the external memory card. Download offline translation is to use Bluetooth to apply for unused application for unused to read mobile phone status and identity Login and payment to complete login and payment is floating window floating ball real-time translation to achieve cross-software translation Yes</li></ol><ol type="1" id="d203eef5-8668-4563-8e53-1e9c539e6c00" class="numbered-list" start="3"><li>We may use your information for security prevention and fraud monitoring, etc., to prevent, detect, investigate fraud, endanger security, illegal or violate our agreements, policies or rules to protect you, us or our The legitimate rights and interests of related companies, partners and the general public.</li></ol><ol type="1" id="2f976f33-fb68-4efa-b391-60f1c7c75aba" class="numbered-list" start="4"><li>When we want to use information for other purposes not specified in this privacy policy, we will ask for your consent in advance. When we want to use the information collected for a specific purpose for other purposes, we will seek your consent in advance.</li></ol><ol type="1" id="09a5b150-004a-4022-9ae1-03f98105baff" class="numbered-list" start="5"><li>The third-party SDK we use</li></ol><p id="d81179f4-ace6-42c3-b418-b7bcdc0e3a8a" class="">In order to ensure the stable operation and functional services of our services, the software toolkit (SDK) or other similar programs of authorized partners are used in this software. The information is as follows:</p><p id="0f1e99e0-e851-4dc3-8136-924c0c0ba8f6" class="">Umeng Statistics</p><p id="d5bd0a52-0033-4aea-8b58-1c51c60c07c3" class="">You can read the Umeng Privacy Policy for more detailed information</p><p id="a51fd3a4-efdc-45f2-a207-85936305749e" class="">Tencent Bugly</p><p id="0bbd5df5-7d5f-4032-ac45-550de97f7a2f" class="">You can visit the Tencent website privacy agreement address for more detailed information</p><p id="d3a39e81-2b02-4ff1-a80b-7b95a2f5d317" class="">pangolin</p><p id="b0b4b595-17fb-4d41-8940-0a7d380d1bb2" class="">Privacy Policy Address: Pangolin Privacy Agreement</p><ol type="1" id="2d1840f5-c412-402c-8c08-1588e349f1d4" class="numbered-list" start="1"><li>How do we use cookies and similar technologies Cookies and anonymous identifier tools.
+Cookie is a mechanism that supports the server (or script) to store and retrieve information on the client. When you use teacher translation products or services, we will send one or more cookies or anonymous identifiers to your device. When you interact with the teacher translation service, we allow cookies or anonymous identifiers to be sent to the server of Shanghai Yinjie Information Technology Co., Ltd. Cookies usually contain identifiers, site names, and some numbers and characters. Using Cookie technology, Shanghai Yinjie Information Technology Co., Ltd. can understand your usage habits, remember your preferences, save you the step of entering repeated information, provide you with more thoughtful and personalized services, or help you determine your account’s safety. Cookies can also help us count traffic information and analyze the effectiveness of page design and advertising. We will not use cookies for any purpose other than those described in this policy. You can manage or delete cookies according to your preferences.</li></ol><ol type="1" id="8a40ba2c-efaa-4e62-8e9b-85b1b4653a42" class="numbered-list" start="2"><li>How do we share, transfer, and publicly disclose your personal information</li></ol><ol type="1" id="bcac27cb-8324-4e5f-9f79-5f96475b4b22" class="numbered-list" start="3"><li>We will treat your information with a high degree of diligence. After obtaining your explicit consent, we will share your personal information with other parties. We may share your personal information externally in accordance with laws and regulations, or in accordance with laws and regulations, legal procedures, or mandatory government requirements or judicial rulings.</li></ol><ol type="1" id="6a8f4947-2287-4a89-b790-76d6734b1ae3" class="numbered-list" start="4"><li>Only for the purposes stated in this privacy policy, some of our services will be provided by authorized partners. We may share some of your personal information with our partners to provide better customer service and user experience. We will only share your personal information for legal, legitimate, necessary, specific, and clear purposes, and will only share personal information necessary to provide services. Our partners have no right to use the shared personal information for any other purpose.</li></ol><ol type="1" id="72c36cbc-ca27-4ccf-a42c-13192f0c6e40" class="numbered-list" start="5"><li>After you agree, we will share information with the following types of third-party authorized partners:</li></ol><ol type="1" id="00475817-812a-4e5a-83be-7941a430bec2" class="numbered-list" start="6"><li>Wide Sue the service provider. Without your authorization, we will not share your personal information with advertising service providers. However, we may share your anonymized user portrait with advertising service providers to help them increase the effective reach of advertising without identifying you personally.</li></ol><ol type="1" id="22bb9d18-4dbd-44a8-b085-81025a64404e" class="numbered-list" start="7"><li>Software development kit (SDK). In order to adapt to the use of teacher translation and third-party platform services on different mobile devices, to achieve your mobile device identity authentication, mobile device security, receiving information pushes, logging in to third-party platform accounts, sharing information through third-party platforms, and payment security, teachers The translation application is connected to a third-party SDK. The aforementioned third-party SDK providers include social platforms (such as QQ, WeChat), statistical platforms (Youmeng), and third-party payment institutions (such as WeChat, Alipay). The third-party SDK may call your device permissions and obtain your relevant information so that you can use the corresponding functions normally on different mobile devices or third-party platforms. Different third-party SDKs may call different types of device permissions and information obtained, which may include obtaining your location information, reading/writing your external memory card, reading your mobile phone status and identity, viewing WLAN connection, and searching Running application/Bluetooth. Regarding the specific types of device permissions called by the third-party SDK and how to collect and use your personal information, it is recommended that you refer to the relevant service agreement and privacy policy of the third-party SDK.</li></ol><ol type="1" id="ab8478e0-20f3-4fff-9aa8-5dd4893aee50" class="numbered-list" start="8"><li>For companies, organizations and individuals with whom we share personal information, we will investigate their data security environment, sign strict confidentiality agreements with them, and require them to follow our instructions, this privacy policy and any other relevant confidentiality and Security measures to handle personal information.</li></ol><ol type="1" id="9ac90138-1e54-44d6-a161-a09465a659ba" class="numbered-list" start="9"><li>We will not transfer your personal information to any company, organization or individual other than Shanghai Yinjie Information Technology Co., Ltd. and its affiliates, except in the following cases:</li></ol><ol type="1" id="ba8d219a-1c8d-491d-b82b-393621f24ae6" class="numbered-list" start="10"><li>Obtain your explicit authorization or consent in advance;</li></ol><ol type="1" id="7258fba1-6636-42db-8bd9-0c87ced18c91" class="numbered-list" start="11"><li>Meet the requirements of laws, regulations, legal procedures, or mandatory government requirements or judicial rulings;</li></ol><ol type="1" id="2d468357-4c3d-4efa-994b-c928f029bad0" class="numbered-list" start="12"><li>If we or our affiliates are involved in transactions such as mergers, divisions, liquidation, asset or business acquisitions or sales, your personal information may be transferred as part of such transactions, and we will ensure that such information is being transferred Time confidentiality, and do our best to ensure that new companies and organizations that hold your personal information continue to be bound by this privacy policy, otherwise we will require the companies and organizations to ask you for authorization and consent again.</li></ol><ol type="1" id="b606c531-15b0-4672-b54c-2c7226d809eb" class="numbered-list" start="13"><li>We will only publicly disclose your personal information under the following circumstances:</li></ol><ol type="1" id="0a131fa7-9fc7-47e6-bf7f-beec5d41012f" class="numbered-list" start="14"><li>Obtain your explicit consent;</li></ol><ol type="1" id="b8bd0625-6f4b-44b5-86be-b1e402aa44a4" class="numbered-list" start="15"><li>Based on the mandatory requirements of laws and regulations, legal procedures, litigation or government authorities.</li></ol><ol type="1" id="0b7b0026-2a82-49d1-bdb6-726ff2730845" class="numbered-list" start="16"><li>Information you actively share with others</li></ol><ol type="1" id="aafaf91c-2f3d-45cd-9525-01f90d5c4a15" class="numbered-list" start="17"><li>The growth of teacher translation is inseparable from the joint efforts of all user experts. We are very grateful for your contribution to teacher translation data update and intelligence feedback. You can provide feedback, evaluation, etc. through teacher translation to help more translation users enjoy better quality information.</li></ol><ol type="1" id="b45592b1-6949-43cb-8889-ea6436167333" class="numbered-list" start="18"><li>You can use the sharing function of teacher translation to share with your specific or unspecific social friends (such as WeChat, QQ, Weibo), including but not limited to your search content, recommended articles, etc. Please give full consideration to the reputation of the information recipient before sharing, and it is recommended that you check the privacy statement of the social network or third-party service provider you use to understand how they handle your information for prudent decision-making.</li></ol><ol type="1" id="80bd4616-b451-4421-9a02-73e076b05aa7" class="numbered-list" start="19"><li>Exceptions to obtaining authorization and consent in advance when sharing, transferring, and publicly disclosing personal information. In the following circumstances, sharing, transferring, and publicly disclosing personal information does not require prior authorization and consent from the subject of personal information:</li></ol><ol type="1" id="97d397c3-caf5-4237-8708-79cccdce18b4" class="numbered-list" start="20"><li>Directly related to national security and national defense security;</li></ol><ol type="1" id="7c67a921-fbdd-4754-bbeb-c7f5bb4e2441" class="numbered-list" start="21"><li>Directly related to public safety, public health, and major public interests;</li></ol><ol type="1" id="86fc9f67-4b33-4dc1-aefc-2878575ae524" class="numbered-list" start="22"><li>Directly related to criminal investigation, prosecution, trial, and execution of judgments;</li></ol><ol type="1" id="e87d0fd4-a480-4b18-b374-fa49c24df6d5" class="numbered-list" start="23"><li>For the purpose of protecting the life and property of the personal information subject or other individuals, but it is difficult to obtain the consent of the person; personal information disclosed by the personal information subject to the public on his own; collecting personal information from the legally publicly disclosed information , Such as legal news reports, open government information and other channels.</li></ol><ol type="1" id="883688bd-74e9-479c-9645-97597b564fcf" class="numbered-list" start="24"><li>How do we save and protect your personal information</li></ol><ol type="1" id="e49c8997-b79d-4c44-833b-d6c0664166f2" class="numbered-list" start="25"><li>Shelf life. While you are using teacher translation, we will continue to save your personal information for you. If you cancel your account or voluntarily delete the above information, we will save your information in accordance with the Cyber Security Law and other laws and regulations. After you cancel your account or voluntarily delete the above information, we will no longer commercialize your personal information, but we may use your personal information after anonymization.</li></ol><ol type="1" id="6ea12241-acc3-478e-ab46-77064925900e" class="numbered-list" start="26"><li>Save the region. Your personal information is stored in the territory of the People&#x27;s Republic of China. If cross-border transmission is required, we will separately obtain your authorization and consent.</li></ol><ol type="1" id="67bc7c89-1095-4a89-9ed0-5df772ca6463" class="numbered-list" start="27"><li>Safety measures.</li></ol><ol type="1" id="3f9e1dca-0886-4a22-a100-ddd334e0eabd" class="numbered-list" start="28"><li>We will collect, use, store and transmit user information based on the principle of &quot;minimization&quot;, and inform you of the purpose and scope of use of relevant information through the user agreement and privacy policy.</li></ol><ol type="1" id="2c69063b-2d8a-4280-9501-a26babfb1dbc" class="numbered-list" start="29"><li>We attach great importance to information security. We have established a dedicated team responsible for the development and application of a variety of security technologies and procedures. We will conduct security background checks on security management personnel and personnel in key security positions. We have established a complete information security management system and internal security incident handling mechanism Wait. We will take appropriate industry-standard security measures and technical means to store and protect your personal information to prevent your information from being lost, being accessed without authorization, publicly disclosed, used, destroyed, lost or leaked. We will take all reasonable and feasible measures to protect your personal information. We will use encryption technology to ensure the confidentiality of data; we will use trusted protection mechanisms to prevent malicious attacks on data.</li></ol><ol type="1" id="e2df5bd8-efe1-4323-ac9d-ae0ec7c578d1" class="numbered-list" start="30"><li>We will train and assess employees&#x27; awareness of data security and security capabilities to strengthen their awareness of the importance of protecting personal information. We will conduct identity authentication and authority control for employees who handle personal information, and sign confidentiality agreements with employees and partners who contact your personal information, clarify job responsibilities and code of conduct, and ensure that only authorized personnel can access personal information. If there is any violation of the confidentiality agreement, the cooperation relationship with Shanghai Yinjie Information Technology Co., Ltd. will be terminated immediately, and relevant legal responsibilities will be investigated, and confidentiality requirements will also be imposed on personnel contacting personal information when they leave their posts.</li></ol><ol type="1" id="14f0810b-7947-4913-8d36-61b3c8b6fd55" class="numbered-list" start="31"><li>We remind you that the Internet is not an absolutely safe environment. When you interact with other users through third-party social software, emails, text messages, etc. embedded in the teacher’s translation, your translation content, geographic location or whereabouts information is not Determine whether the third-party software completely encrypts the transmission of information, and pay attention to ensuring the security of your personal information.</li></ol><ol type="1" id="fc3963aa-430d-43af-a126-ccf7d79c3f83" class="numbered-list" start="32"><li>We also ask you to understand that due to technological limitations and rapid development in the Internet industry, as well as various malicious attack methods that may exist, even if we do our best to strengthen security measures, it is impossible to always guarantee 100% security of information. Please understand that the systems and communication networks you use when you use our products and/or services may have security problems in other links outside our control. According to our security management system, personal information leakage, damage or loss is listed as the most serious security incident. Once it occurs, the company&#x27;s highest-level emergency plan will be launched. It is composed of multiple departments such as the Ministry of Security, the Ministry of Government Relations, and the Ministry of Legal Affairs. Emergency response team dealt with. 4. Security incident notification</li></ol><ol type="1" id="5df8a71d-e399-4b57-a75e-4ba3694444fe" class="numbered-list" start="33"><li>We will formulate emergency plans for network security incidents to deal with security risks such as system vulnerabilities, computer viruses, network attacks, and network intrusions in a timely manner. When an incident that endangers network security occurs, we will immediately activate emergency plans and take corresponding remedial measures. And report to relevant authorities in accordance with regulations.</li></ol><ol type="1" id="8a7eeca9-72bd-4abc-8825-490f237a772b" class="numbered-list" start="34"><li>The leakage, damage, and loss of personal information are major company-level security incidents. We will be responsible for regularly organizing working group members to conduct security plan drills to prevent such security incidents from happening. In the event of an unfortunate occurrence, we will activate the emergency response plan according to the highest priority and form an emergency response team to trace the cause and reduce the loss in the shortest time.</li></ol><ol type="1" id="3d8066a9-e8ad-4379-946a-f1fcc9465d14" class="numbered-list" start="35"><li>In the unfortunate event of a personal information security incident, we will, in accordance with the requirements of laws and regulations, promptly inform you of the basic situation and possible impact of the security incident, the processing measures that we have taken or will take, and what you can independently prevent and reduce Risk suggestions, remedial measures for you, etc. We will promptly inform you of the incident-related information through site notifications, SMS notifications, phone calls, emails, and other contact methods you reserved. When it is difficult to notify them one by one, we will adopt a reasonable and effective way to make announcements. At the same time, we will also proactively report the handling of personal information security incidents in accordance with the requirements of the regulatory authorities.</li></ol><ol type="1" id="c87e5733-b4c1-40db-a1c9-679437bf9249" class="numbered-list" start="36"><li>Your rights
+In accordance with relevant Chinese laws, regulations, and standards, as well as common practices in other countries and regions, we guarantee that you exercise the following rights with respect to your personal information:</li></ol><ol type="1" id="0c4053c6-ea4e-4d84-98d2-e1cf4a6379de" class="numbered-list" start="37"><li>Right to correction. When you find that the personal information we process about you is wrong, after verifying your identity, and the correction does not affect the objectivity and accuracy of the information, you have the right to make corrections to the wrong or incomplete information Or update, you can make corrections in the teacher&#x27;s translation by yourself, or submit your correction application to us through feedback and error reporting.</li></ol><ol type="1" id="58141670-3243-45f2-8ad5-3bb43189778c" class="numbered-list" start="38"><li>Right to erasure. In the following situations, you can request us to delete personal information:</li></ol><ol type="1" id="fc70e847-c24f-4719-90e7-81d03830cc1a" class="numbered-list" start="39"><li>If we violate laws, laws and regulations or agreed with you to collect, use, share with others, or transfer your personal information;</li></ol><ol type="1" id="1190da03-0fae-4e23-82f9-143c5f26bf3e" class="numbered-list" start="40"><li>If we publicly disclose your personal information in violation of laws and regulations or the agreement with you, you have the right to request us to immediately stop the public disclosure and issue a notice requesting the relevant recipient to delete the corresponding information. When you delete information from our service, we may not immediately delete the corresponding information from the backup system, but we will delete the information when the backup is updated.</li></ol><ol type="1" id="95767515-bbd9-4682-a330-89cb0c31ed97" class="numbered-list" start="41"><li>Change the scope of your authorization. If you want to change the scope of authorization, you can modify the scope of authorization through the privacy settings of the teacher platform product, for example:</li></ol><ol type="1" id="0667f597-9fc0-4fdf-8a50-1e6f964a7f75" class="numbered-list" start="42"><li>You can log in to the [Account Management] interface to unbind the teacher account with the third-party account.</li></ol><ol type="1" id="fa0e8185-98f9-4e5d-ab3d-79a74085469b" class="numbered-list" start="43"><li>After you withdraw your consent or authorization, we cannot continue to provide you with the services corresponding to the withdrawal of your consent or authorization, and will no longer process your corresponding personal information. However, your decision to withdraw your consent or authorization will not affect the previous processing of personal information based on your consent or authorization.</li></ol><ol type="1" id="6fac5006-6874-4eae-b6e6-c504dbea3b22" class="numbered-list" start="44"><li>Right of cancellation. You can cancel the previously registered account at any time. You can apply to cancel your account manually/manually, as follows: Manual method: You can follow the application process of [My]-[Settings]-[Account cancellation] Manual mode: You can go to [My]- In [Contact Customer Service], follow the logout process provided by the customer service. Before you log out of your account, we will verify your personal identity, security status, device information, etc. When you log out of your account, we will delete your relevant information about you.</li></ol><ol type="1" id="248f3b29-948d-4980-9e7c-eca112d32e82" class="numbered-list" start="45"><li>Know the right to stop operations of products and services in advance.</li></ol><p id="047df966-b19b-4a6d-a2e2-f99effa97a72" class="">The teacher is willing to accompany you all the time. If the teacher’s platform products and services are forced to stop operating due to special reasons, we will send you an email or other appropriate information on the main page of the product and/or service or in-site letter in accordance with the requirements of laws and regulations. We will notify you by the way we reach you, and will stop the collection of your personal information, and will delete or anonymize your personal information held in accordance with the law. 7. Respond to your above request. To ensure safety, you need to provide a written request or prove your identity in other ways. We may ask you to verify your identity before processing your request. In principle, we do not charge a fee for your reasonable request, but for repeated requests that exceed reasonable limits, we will charge a certain cost according to the situation. For those that are unreasonably repeated, require too many technical means (for example, the need to develop new systems or fundamentally change existing practices), bring risks to the legitimate rights and interests of others, or are very impractical (for example, involving information stored on backup tapes) Request, we may reject it. In the following situations, in accordance with the requirements of laws and regulations,</p><p id="6435e4f8-2542-43df-840e-4201c326176c" class="">We will not be able to respond to your above request:</p><ol type="1" id="19bc1434-a62d-4143-a3a9-a9fbb1d0b178" class="numbered-list" start="1"><li>Directly related to national security and national defense security;</li></ol><ol type="1" id="f459708e-e9f2-4947-934d-aa1e6313eeb9" class="numbered-list" start="2"><li>Directly related to public safety, public health, and major public interests;</li></ol><ol type="1" id="3e71f4ec-d765-4736-a76a-5c0b012f9dd3" class="numbered-list" start="3"><li>Directly related to criminal investigation, prosecution, trial and execution of judgments;</li></ol><ol type="1" id="c0ea1465-85fa-411e-abf9-94e29cf6259f" class="numbered-list" start="4"><li>We have sufficient evidence to show that you have subjective malice or abuse of rights (such as your request will endanger public safety and the legitimate rights and interests of other people, or your request exceeds the scope of general technical means and commercial costs);</li></ol><ol type="1" id="a2871d89-ed19-41d9-88fe-6697989bfce6" class="numbered-list" start="5"><li>Responding to the request of the personal information subject will cause serious damage to the legitimate rights and interests of you or other individuals or organizations;</li></ol><ol type="1" id="5c6fd6f9-07fe-4296-bc73-bede1ee347fc" class="numbered-list" start="6"><li>Involving trade secrets.</li></ol><ol type="1" id="01aff00f-43e1-4d44-b96c-cc504c0fd071" class="numbered-list" start="7"><li>How do we deal with the personal information of minors
+The teacher attaches great importance to the protection of minors’ information. Our products, websites and services are mainly for adults. If you are a minor, it is recommended that you ask your guardian to read this privacy policy carefully and use our products and/or services or provide us with information with the consent of your guardian. If your guardian does not agree with you to use our services or provide us with information in accordance with this policy, please immediately terminate the use of our services and notify us in time so that we can take corresponding measures. If the guardian finds that we have collected the personal information of minors without the consent of the guardian, please contact us through [aidaofeng2021@163.com], and we will try to delete the relevant data as soon as possible.</li></ol><ol type="1" id="54acfba3-3d56-4ef6-bfaa-00bb59d224a1" class="numbered-list" start="8"><li>How to transfer your personal information across borders
+In principle, the personal information we collect and generate in China will be stored in China. If some products or services involve cross-border, we need to transfer your personal information overseas, we will strictly follow the laws and regulations to implement, and ensure the security of your personal information.</li></ol><ol type="1" id="03c8a7e7-6716-4bd0-af07-ce7918149131" class="numbered-list" start="9"><li>How to update this privacy policy
+We may revise the content of this policy in due course. If such changes will result in a substantial reduction of your rights under this policy, we will notify you by prompting in a prominent position on the page, sending you an email, etc., before the changes take effect. We will post any changes to this privacy policy on this page. If you do not agree to these changes, you can stop using the teacher platform products and services. If you continue to use our products and/or services, it means that you agree to be bound by this revised privacy policy.</li></ol><p id="37f7038d-ce89-4c9d-811e-ff17b67af138" class="">The major changes referred to in this privacy policy include but are not limited to:</p><ol type="1" id="b77926ef-c36c-4b0f-94a0-428c686c2d95" class="numbered-list" start="1"><li>Our service model has undergone major changes. Such as the purpose of processing personal information, the type of personal information processed, the way of using personal information, etc.;</li></ol><ol type="1" id="4bb4036f-4ff3-45be-83a6-fb262f581404" class="numbered-list" start="2"><li>The main objects of personal information sharing, transfer or public disclosure have changed;</li></ol><ol type="1" id="19defaa8-5ec6-493a-8353-91e42d911993" class="numbered-list" start="3"><li>Your right to participate in the processing of personal information and how to exercise it has undergone major changes; 4. Other changes that may have a major impact on your personal information rights.</li></ol><ol type="1" id="8856775b-53ad-448f-bacd-efd325531816" class="numbered-list" start="4"><li>How to contact us</li></ol><ol type="1" id="74c6387e-6c26-43ef-8700-78d6482d6e63" class="numbered-list" start="5"><li>Your translation to the teacher If you have any comments or suggestions or complaints in this privacy policy, you can contact us in the following ways:</li></ol><p id="4c69b1e4-8712-40f0-9e74-984e8b3184ab" class="">(1) Send an email to <a href="mailto:kingofmial@gmail.com">kingofmial@gmail.com</a>, working hours: 9:00-21:00 on weekdays;</p><p id="05788056-d47d-4728-b1d0-dcdbb48f9795" class="">(2) Path in the App: My-Feedback</p><ol type="1" id="4703a20e-65dc-4618-90fd-b27cc891ec3b" class="numbered-list" start="1"><li>In order to ensure that we efficiently deal with your problems and provide timely feedback to you, you need to submit your identity certificate, valid contact information, written request and related evidence. We will verify your identity and process your request.</li></ol><ol type="1" id="6099f995-dd0f-427e-89f8-3db576357c4e" class="numbered-list" start="2"><li>If you are not satisfied with our response, especially if you think that our personal information processing behavior has harmed your legal rights, you can also seek a solution through the following external channels: [Teacher’s residence has jurisdiction litigation】.</li></ol><p id="f55c96ef-a2bd-4607-827d-c2b6d4c2d3e0" class="">Attachment: noun explanation</p><p id="fa121c39-fe11-4ac8-9570-47167026162d" class="">Personal information refers to various information recorded electronically or in other ways that can identify a specific natural person alone or in combination with other information or reflect the activities of a specific natural person. Personal information includes name, date of birth, ID number, personal biometric information, address, communication contact information, communication records and content, account password, property information, credit information, whereabouts, accommodation information, health and physiological information, and transactions Information etc. Personally sensitive information refers to personal information that, once leaked, illegally provided, or misused, may endanger personal and property safety, and easily lead to personal reputation, physical and mental health damage, or discriminatory treatment. Personal sensitive information includes ID number, personal biometric information, bank account numbers, communication records and content, property information, credit information, whereabouts, accommodation information, health and physiological information, transaction information, and individuals of children under the age of 14 (including) Information etc.</p><p id="60283b3f-76ce-4c1a-9d4a-c39fee447e0e" class="">A device refers to a device that can be used to use the products and/or services of Shanghai Yinjie Information Technology Co., Ltd., such as a desktop device, a tablet computer, or a smart phone.</p><p id="321b8049-e0bd-4822-ba6d-ba664f7a2fd9" class="">A unique device identifier refers to a unique device identifier (sometimes called a universal unique ID or UUID) is a string of characters compiled into a device by a device manufacturer, and can be used to uniquely identify the corresponding device (for example, International Mobile Equipment Identity Code (IMEI number, network equipment hardware MAC address). Different device identifiers have different validity periods, whether users can reset them, and how to obtain them. The corresponding device may have multiple different unique device identifiers. Unique device identifiers can be used for a variety of purposes, including security and fraud detection, synchronizing services (such as a user’s email inbox), recording user preferences, and providing relevant advertisements.</p><p id="3c832879-ac2a-40a1-8668-98b63b7af629" class="">Cookie refers to a mechanism that supports the server (or script) to store and retrieve information on the client. It expands Web-based client/server applications by adding simple and continuous client state. The server sends a piece of status information while returning the HTTP object to the client, and the client saves it. The status information indicates the valid URL range in this status. After that, all HTTP requests within this range initiated by the client will return the current value of the state information from the client to the server. This state information is called a Cookie.</p><p id="9f2cdd7b-1d79-4c08-a9a4-c137cedf487b" class="">Anonymous identifier means that Shanghai Yinjie Information Technology Co., Ltd. generates an identifier such as CUID through a machine algorithm based on equipment parameters to help Shanghai Yinjie Information Technology Co., Ltd. identify a user and provide better products and/or services for it And improve user experience. User portrait refers to the process of analyzing or predicting the personal characteristics of a specific natural person, such as his occupation, economy, health, education, personal preferences, credit, behavior, etc., by collecting, aggregating, and analyzing personal information, and forming a personal characteristic model. . The personal information of a specific natural person is directly used to form a characteristic model of the natural person, which is called a direct user portrait. Use personal information other than a specific natural person, such as the data of the group in which it belongs, to form a characteristic model of the natural person, which is called an indirect user portrait.</p><p id="1073d5ba-9c4e-4b4d-85a6-f647493e00bb" class="">Anonymization refers to the process of technical processing of personal information so that the subject of personal information cannot be identified and the processed information cannot be restored. The information obtained after anonymization of personal information is not personal information. Affiliated company refers to the single or collective name of Shanghai Yinjie Information Technology Co., Ltd., the operator of the teacher translation, and other companies that have an associated relationship with Shanghai Yinjie Information Technology Co., Ltd. &quot;Associated relationship&quot; refers to any subject (including individuals, companies, partnerships, organizations, or any other entities), that is, the subject directly or indirectly controlled by it, or the subject directly or indirectly controlling it, or directly or indirectly with it. Subjects controlled by the same subject. The aforementioned &quot;control&quot; refers to the right to directly or indirectly give instructions to the management and decision-making of related entities or to instruct others to give instructions through holding voting rights, contracts or other means, or other relationships that actually constitute actual control.</p><p id="4586289a-c85f-4555-bf7f-d2a978f83dc5" class="">Thank you again for your trust and use of the teacher&#x27;s translation!</p><p id="5c78ebf5-d6a7-4b82-95a4-40a039040c0f" class="">This agreement will take effect on August 13, 2021</p><p id="6fc1aad9-c4e1-4c3a-bf47-9ce033aed396" class="">
+</p></div></article></body></html>
